@@ -429,7 +429,7 @@ button {
 }
 
 .uber_button a {
-    color: #fff;
+    color: #000;
     background-color: #06C167;
     padding: 10px 15px;
     border-radius: 20px;
@@ -449,7 +449,7 @@ button {
 }
 
 .menu_button a {
-    color: #fff;
+    color: #000;
     background-color: #e0342b;
     padding: 10px 40px;
     border-radius: 20px;
