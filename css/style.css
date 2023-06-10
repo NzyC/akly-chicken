@@ -429,14 +429,14 @@ button {
 }
 
 .uber_button a {
-    color: #000;
+    color: #fff;
     background-color: #06C167;
     padding: 10px 15px;
     border-radius: 20px;
 }
 
 .uber_button a:hover {
-    color: #fff;
+    color: #06C167;
     background-color: #000;
 }
 
