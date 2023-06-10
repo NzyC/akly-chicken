@@ -436,7 +436,7 @@ button {
 }
 
 .uber_button a:hover {
-    color: #06C167;
+    color: #fff;
     background-color: #000;
 }
 
@@ -449,7 +449,7 @@ button {
 }
 
 .menu_button a {
-    color: #000;
+    color: #fff;
     background-color: #e0342b;
     padding: 10px 40px;
     border-radius: 20px;
