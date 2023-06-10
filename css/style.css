@@ -455,6 +455,14 @@ button {
     border-radius: 20px;
 }
 
+.number {
+    font-weight: 500;
+}
+
+.number:hover {
+    color: #0000005e;
+}
+
 .menu_button a:hover {
     color: #e0342b;
     background-color: #000;
