@@ -421,6 +421,56 @@ button {
     color: #ffffff;
 }
 
+.button_wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+    width: 60%;
+}
+
+.uber_button a {
+    color: #000;
+    background-color: #06C167;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.uber_button a:hover {
+    color: #06C167;
+    background-color: #000;
+}
+
+.menu_button, .uber_button {
+    transform: scale(1.2);
+}
+
+.menu_button:hover, .uber_button:hover {
+    transform: scale(1.5);
+}
+
+.menu_button a {
+    color: #000;
+    background-color: #e0342b;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.menu_button a:hover {
+    color: #e0342b;
+    background-color: #000;
+}
+
+@media (max-width: 700px) {
+    .button_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_button {
+        margin-bottom: 5vh;
+    }
+}
+
 /* banner section end */
 
 
@@ -515,6 +565,13 @@ button {
     padding-top: 70px;
 }
 
+.menu_taital_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
 .abt_img-wrapper {
     border-radius: 40px;
     margin-top: 10vh;
@@ -570,6 +627,26 @@ button {
     float: left;
 }
 
+.menu {
+    width: 100%;
+}
+
+.menu-img {
+    margin-bottom: 26px;
+    border-radius: 20px;
+    transition: all 300ms ease;
+    width: 45%;
+}
+
+.menu-img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+    .menu-img {
+        width: 90%;
+    }
+}
 
 /* contact section end */
 
